@@ -1,3 +1,45 @@
 // Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-color:#7f8c8d
+}
+.main{
+	margin: 0 auto;
+	text-align: center;
+}
+p{
+	width: 30%;
+	margin: 0 auto;
+	padding: 25px;
+	color: white;
+}
+h1{
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+	color: white;
+	text-shadow: 2px 2px 2px green;
+}
+a{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.login{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px green;
+}
+button{
+	padding: 20px;
+	width: 245px;
+	margin-top: 20px;
+}
+#password, #username{
+	padding: 20px;
+	width: 200px;
+	text-align: center;
+	margin-top: 20px;
+}
