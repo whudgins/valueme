@@ -1,0 +1,33 @@
+<h1>Listing possessions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Model num</th>
+      <th>Receipt url</th>
+      <th>Est value</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @possessions.each do |possession| %>
+      <tr>
+        <td><%= possession.name %></td>
+        <td><%= possession.model_num %></td>
+        <td><%= possession.receipt_url %></td>
+        <td><%= possession.est_value %></td>
+        <td><%= link_to 'Show', possession %></td>
+        <td><%= link_to 'Edit', edit_possession_path(possession) %></td>
+        <td><%= link_to 'Destroy', possession, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Possession', new_possession_path %>
