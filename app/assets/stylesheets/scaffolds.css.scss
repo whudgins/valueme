@@ -18,14 +18,14 @@ pre {
 }
 
 a {
-  color: green;
+  color: #27ae60;
   text-decoration: none;
   &:visited {
-    color: green;
+    color: #27ae60;
   }
   &:hover {
     color: #fff;
-    background-color: green;
+    background-color: #27ae60;
   }
 }
 
@@ -36,7 +36,7 @@ div {
 }
 
 #notice {
-  color: green;
+  color: #27ae60;
 }
 
 .field_with_errors {
