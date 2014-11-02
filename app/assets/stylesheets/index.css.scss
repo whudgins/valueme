@@ -482,12 +482,18 @@ button{
 .mission{
   background: white;
   width: 100%;
-  height: 400px;
+  height: 550px;
 }
 .mission p{
   display: inline-block;
   color: #27ae60;
   width: 230px;
+}
+.mission h1{
+  font-size: 40px;
+  display: block;
+  color: #27ae60;
+  text-shadow: 2px 2px 2px gray;
 }
 .col-1, .col-2, .col-3{
   margin-top: 60px;
@@ -508,6 +514,10 @@ i.fa.fa-usd, i.fa.fa-calculator, i.fa.fa-pie-chart{
   width: 200px;
   text-align: center;
   margin-top: 20px;
+}
+.bottom{
+  background-color: #BDC3C7;
+  height: 250px;
 }
 .cbp-fwslider {
     position: relative;

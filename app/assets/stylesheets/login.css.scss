@@ -2,6 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body{
-	background-color:#7f8c8d
+.login{
+text-align: center;
+color: white;
+height: 500px;
+width: 50%;
+margin: 40px auto 40px;
+background-color: #BDC3C7;
+border-radius: 30px;
+}
+h1{
+	font-size: 40px;
+}
+button, input{
+	border: 1px solid black;
+}
+::-webkit-input-placeholder {
+   color: #27ae60;;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #27ae60;;  
+}
+
+:-ms-input-placeholder {  
+   color: #27ae60;
+}
+
+button{
+	background-color: white;
+	color: #27ae60;
+
 }
