@@ -431,7 +431,7 @@ th {
 }
 
 body{
-  background-color:#7f8c8d
+  background-color: #7f8c8d
 }
 .main{
   margin: 0 auto;
@@ -452,7 +452,6 @@ h1{
   margin: 0 auto;
   padding: 30px;
   color: white;
-  text-shadow: 2px 2px 2px #27ae60;
   display: inline;
   line-height: 94px;
 }
@@ -490,21 +489,29 @@ button{
   width: 230px;
 }
 .mission h1{
-  font-size: 40px;
+  font-size: 75px;
   display: block;
   color: #27ae60;
-  text-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 2px #BDC3C7;
+}
+.mission h3{
+  font-size: 34px;
+  color: #27ae60;
+  text-shadow: 2px 2px 2px #BDC3C7;
 }
 .col-1, .col-2, .col-3{
   margin-top: 60px;
   width: 330px;
    display: inline-flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
 }
 .fa{
   color: #27ae60;
+  -webkit-text-stroke: 1px black;
+  -moz-text-stroke: 1px black;
+  stroke: 1px black;
 }
 i.fa.fa-usd, i.fa.fa-calculator, i.fa.fa-pie-chart{
   font-size: 60px;
