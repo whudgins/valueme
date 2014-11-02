@@ -468,7 +468,7 @@ a{
 button{
   padding: 20px;
   width: 245px;
-  margin-top: 20px;
+  margin: 20px auto 50px;
 }
 .sign-up{
   padding: 20px;
@@ -485,7 +485,7 @@ button{
 }
 .mission p{
   display: inline-block;
-  color: #27ae60;
+  color: black;
   width: 230px;
 }
 .mission h1{
@@ -611,7 +611,7 @@ i.fa.fa-usd, i.fa.fa-calculator, i.fa.fa-pie-chart{
 }
  
 .cbp-fwdots span.cbp-fwcurrent {
-    background: #47a3da;
-    box-shadow: 0 0 0 2px #47a3da;
+    background: #27ae60;
+    box-shadow: 0 0 0 2px black;
     transition: box-shadow 0.2s ease-in-out;
 }

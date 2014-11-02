@@ -1,4 +1,7 @@
 Valueme::Application.routes.draw do
+  get "dashboard" => "dashboard"
+  get "dashboard/new" => "dashboard#new"
+  get "dashboard/create" => "dashboard#create"
   resources :users
   
   resources :possessions
